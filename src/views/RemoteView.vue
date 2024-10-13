@@ -1,4 +1,5 @@
 <template>
+  <Navbar/>
   <div style="border: 1px solid red">
     <h1>Remote View</h1>
     <p>Dies ist die Remote-Seite.</p>
@@ -6,5 +7,6 @@
 </template>
 
 <script setup lang="ts">
-// Keine spezielle Logik für diese einfache View
+import Navbar from "../components/Navbar.vue";
+
 </script>
